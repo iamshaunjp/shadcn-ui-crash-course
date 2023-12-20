@@ -5,7 +5,7 @@ import FiltersListProps from "@/interfaces/FiltersListProps";
 const FiltersList:React.FC<FiltersListProps> = ({whiskeys, handleFilter}) => {
     const uniqueCountries = Array.from(new Set(whiskeys.map(whiskey => whiskey.Country)));
     return (
-        <nav className='hidden lg:flex flex-col h-96 w-60 m-0 lg:float-left'>
+        <nav className='hidden lg:flex flex-col h-auto w-60 mr-10 lg:float-left'>
             <div className="space-y-2 my-5">
             {uniqueCountries.map(country => (
                 <div key={country} className="flex-row justify-start items-center">

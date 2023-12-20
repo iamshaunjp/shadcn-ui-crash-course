@@ -76,14 +76,12 @@
 }
 
 main, nav {
-  @apply max-w-6xl mx-auto my-12;
+  @apply max-w-6xl mx-auto;
 }
 p {
   @apply mt-2;
 }
-h1 {
-  @apply scroll-m-20 text-2xl font-bold tracking-tight lg:text-3xl;
-}
+
 h2 {
   @apply scroll-m-20 pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0;
 }
